@@ -22,7 +22,7 @@ import pomPages.NewEventDetailsPage;
 import pomPages.NewLeadDetailsPage;
 import pomPages.NewOrgdetailsPage;
 import pomPages.OrganisationsPage;
-
+//This Sccript is edited
 public class BaseClass {
 	
 	//@BeforeSuite
