@@ -22,7 +22,8 @@ import pomPages.NewEventDetailsPage;
 import pomPages.NewLeadDetailsPage;
 import pomPages.NewOrgdetailsPage;
 import pomPages.OrganisationsPage;
-//This Sccript is edited
+//This Script is edited
+//From User 2 script edited
 public class BaseClass {
 	
 	//@BeforeSuite

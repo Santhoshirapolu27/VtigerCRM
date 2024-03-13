@@ -10,7 +10,7 @@ import java.util.List;
 
 import com.mysql.cj.jdbc.Driver;
 //edited script
-
+//This script is checking for git conflict
 /**
  * This class contains reusable methods to read from and modify database
  * @author Dell New
