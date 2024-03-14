@@ -1,5 +1,7 @@
 package genericLibraries;
 
+
+//edited from user1
 //Updated script
 /**
  * This interface contains the external file paths and JDBC url
