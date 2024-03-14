@@ -1,8 +1,6 @@
 package genericLibraries;
-//edited from user 2 second time
+//User2 data updated
 
-//edited from user1
-//Updated script
 /**
  * This interface contains the external file paths and JDBC url
  * @author Dell New
