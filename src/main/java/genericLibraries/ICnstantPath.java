@@ -1,5 +1,6 @@
 package genericLibraries;
 
+//Updated script
 /**
  * This interface contains the external file paths and JDBC url
  * @author Dell New
