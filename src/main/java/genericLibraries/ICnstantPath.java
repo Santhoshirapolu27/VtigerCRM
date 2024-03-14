@@ -1,4 +1,8 @@
 package genericLibraries;
+<<<<<<< HEAD
+//User2 data updated
+=======
+>>>>>>> branch 'master' of https://github.com/Santhoshirapolu27/VtigerCRM.git
 
 /**
  * This interface contains the external file paths and JDBC url
