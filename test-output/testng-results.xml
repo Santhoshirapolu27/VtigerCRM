@@ -1,72 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-06T14:16:24 IST" name="Default suite" finished-at="2024-03-06T14:16:52 IST" duration-ms="28601">
+  <suite started-at="2024-03-15T13:58:05 IST" name="Suite" finished-at="2024-03-15T13:59:21 IST" duration-ms="76038">
     <groups>
     </groups>
-    <test started-at="2024-03-06T14:16:24 IST" name="Default test" finished-at="2024-03-06T14:16:52 IST" duration-ms="28601">
-      <class name="testScripts.CreateAndDeleteLeadTest">
-        <test-method is-config="true" signature="classSetup()[pri:0, instance:testScripts.CreateAndDeleteLeadTest@f78a47e]" started-at="2024-03-06T14:16:24 IST" name="classSetup" finished-at="2024-03-06T14:16:26 IST" duration-ms="2251" status="PASS">
+    <test started-at="2024-03-15T13:58:05 IST" name="Test" finished-at="2024-03-15T13:59:21 IST" duration-ms="76038">
+      <class name="testScripts.CreateOrgTest">
+        <test-method is-config="true" signature="classSetup()[pri:0, instance:testScripts.CreateOrgTest@2e8c1c9b]" started-at="2024-03-15T13:58:05 IST" name="classSetup" finished-at="2024-03-15T13:58:07 IST" duration-ms="1803" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classSetup -->
-        <test-method is-config="true" signature="methodSetup()[pri:0, instance:testScripts.CreateAndDeleteLeadTest@f78a47e]" started-at="2024-03-06T14:16:26 IST" name="methodSetup" finished-at="2024-03-06T14:16:38 IST" duration-ms="12007" status="PASS">
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:testScripts.CreateOrgTest@2e8c1c9b]" started-at="2024-03-15T13:58:07 IST" name="methodSetup" finished-at="2024-03-15T13:58:45 IST" duration-ms="37723" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodSetup -->
-        <test-method signature="createAndDeleteLeadTest()[pri:0, instance:testScripts.CreateAndDeleteLeadTest@f78a47e]" started-at="2024-03-06T14:16:38 IST" name="createAndDeleteLeadTest" finished-at="2024-03-06T14:16:48 IST" duration-ms="10352" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.apache.poi.ss.usermodel.Sheet.getLastRowNum()" because "this.sh" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Sheet.getLastRowNum()" because "this.sh" is null
-at genericLibraries.ExcelUtility.readFromExcel(ExcelUtility.java:57)
-at testScripts.CreateAndDeleteLeadTest.createAndDeleteLeadTest(CreateAndDeleteLeadTest.java:19)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        <test-method signature="createNewOrgTest()[pri:0, instance:testScripts.CreateOrgTest@2e8c1c9b]" started-at="2024-03-15T13:58:45 IST" name="createNewOrgTest" finished-at="2024-03-15T13:59:19 IST" duration-ms="34057" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createAndDeleteLeadTest -->
-        <test-method is-config="true" signature="methodTearDown()[pri:0, instance:testScripts.CreateAndDeleteLeadTest@f78a47e]" started-at="2024-03-06T14:16:48 IST" name="methodTearDown" finished-at="2024-03-06T14:16:51 IST" duration-ms="2353" status="PASS">
+        </test-method> <!-- createNewOrgTest -->
+        <test-method is-config="true" signature="methodTeardown()[pri:0, instance:testScripts.CreateOrgTest@2e8c1c9b]" started-at="2024-03-15T13:59:19 IST" name="methodTeardown" finished-at="2024-03-15T13:59:21 IST" duration-ms="1903" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- methodTearDown -->
-        <test-method is-config="true" signature="classTeardown()[pri:0, instance:testScripts.CreateAndDeleteLeadTest@f78a47e]" started-at="2024-03-06T14:16:51 IST" name="classTeardown" finished-at="2024-03-06T14:16:52 IST" duration-ms="1526" status="PASS">
+        </test-method> <!-- methodTeardown -->
+        <test-method is-config="true" signature="classTeardown()[pri:0, instance:testScripts.CreateOrgTest@2e8c1c9b]" started-at="2024-03-15T13:59:21 IST" name="classTeardown" finished-at="2024-03-15T13:59:21 IST" duration-ms="212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classTeardown -->
-      </class> <!-- testScripts.CreateAndDeleteLeadTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testScripts.CreateOrgTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
